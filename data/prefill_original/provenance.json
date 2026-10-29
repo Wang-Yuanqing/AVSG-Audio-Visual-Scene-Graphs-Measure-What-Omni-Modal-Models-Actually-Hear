@@ -1,0 +1,32 @@
+{
+  "source": "Three author-confirmed original Gemini 3.1 Pro annotation-input batches",
+  "selection": "Only records whose filenames occur in the released gold; original nodes/edges retained without vocabulary normalization",
+  "source_batches": [
+    {
+      "batch": 1,
+      "source_record_count": 394,
+      "original_sha256": "7348bc00db761f0c391b6543cf16e8a60f637e60a91404caca7afda33aa0fef4"
+    },
+    {
+      "batch": 2,
+      "source_record_count": 624,
+      "original_sha256": "42466e9ee3078207debf063bed3f330d66f4aca030fc98ad36e249f4b40ec750"
+    },
+    {
+      "batch": 3,
+      "source_record_count": 713,
+      "original_sha256": "8a52aa83c06cb6df76c40984bda0b58bc856c54c9c91b5c7fbf094b36b0ec0e4"
+    }
+  ],
+  "n_source_records": 1731,
+  "n_gold": 1024,
+  "n_parsed_prefills": 1023,
+  "excluded": [
+    {
+      "filename": "Qv0qRVtqb4k_82.04_103.43092970521542.mp4",
+      "reason": "empty response text"
+    }
+  ],
+  "export_sha256": "93f17300665e2458b3e43e09bc896ff8dfafceadb998bff482767056841a6893",
+  "export_policy": "Removed request/response service wrappers and records outside the released benchmark. No reconstruction from later recovered graph versions."
+}

@@ -1,0 +1,47 @@
+{
+  "source": "Archived AVSG campaign source recovered for public release",
+  "files": [
+    {
+      "file": "inference/run_interomni.py",
+      "source_sha256": "371fca429fc55c155c477a793d4e2add88538f5cab4c6206832de11adfd206d6",
+      "release_sha256": "57e642d80a7ace9f19ef6aea6460180ba3dc81ad9cb24bb405da8c1997905d90",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    },
+    {
+      "file": "inference/run_minicpm.py",
+      "source_sha256": "89cd25d628bfb27a35bf35b708f2a441eec80587ed116c01899bdd40416caf0c",
+      "release_sha256": "afe8d02d8bef163a30141f72fd58a8ff87e1b41a493562dc1264a1d0d78b796c",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    },
+    {
+      "file": "inference/run_nemotron.py",
+      "source_sha256": "fdb239b453557677100c0b9ac9d69eea6d85c2b04374aecb35fd0b6ad4c94216",
+      "release_sha256": "921f874d51bea1e10eb66bf6cf883a1717b2f773f2bbbfc5f771072daa1e1c0f",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    },
+    {
+      "file": "inference/run_omnivinci.py",
+      "source_sha256": "b7760f4c3189a7cbe6b5b8b480d5ec028b3c32fb951f2324017b15893f4f4d4c",
+      "release_sha256": "ccd416ce347b2ffd85acd61533addf0809868a56ddfc238419fb3957b10f0aba",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    },
+    {
+      "file": "inference/run_qwen.py",
+      "source_sha256": "fa27b03fafabce8e124ef02871f3962aab7ae17b5b8af6153fd9bd9dfa68b0af",
+      "release_sha256": "8ad9987aa3a0a75d9c436380d377e737abfc2328d6ad149e926d1f1b07d0773e",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    },
+    {
+      "file": "inference/run_qwen25.py",
+      "source_sha256": "08f843f6630f8f60dd4d15504b7491b4745c0749f9a4b0e4e9653d0cf083ab69",
+      "release_sha256": "e16d62e72baac322a2c15af40dc95740207ad650ae26e5fb20ec88612f73395e",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    },
+    {
+      "file": "inference/run_salmonn.py",
+      "source_sha256": "fc2f1392b5a089e08f097983d888d4bee6012b064f86c716be7e870ff07c2208",
+      "release_sha256": "f2cf861716fb0b49db20ec360cc6b4a6a692f995fba841e03d926b859e588d31",
+      "changes": "Portable paths and evaluation imports; explicit checkpoint argument; remove unavailable non-benchmark OmniVinci diagnostic option; documentation corrections."
+    }
+  ]
+}

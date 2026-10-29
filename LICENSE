@@ -1,0 +1,23 @@
+AVSG release licensing
+======================
+
+Dataset annotations and documentation
+-------------------------------------
+AVSG scene graphs, attributes, anonymized validation/audit judgments, and
+accompanying dataset documentation retain the existing annotation terms:
+CC BY-NC 4.0 with the additional use restriction stated in data/LICENSE.
+That file is retained verbatim from the verified dataset release and includes
+the source-data provenance.
+
+Software
+--------
+A separate software license has not yet been specified by the authors.
+The annotation license above does not apply to the source code. This release
+does not introduce an MIT, Apache, or other blanket software license.
+
+Third-party material
+--------------------
+Source videos, LongVALE captions and clip boundaries, model weights, external
+libraries, and model reference implementations retain their respective terms.
+Model predictions are provided for reproduction of the reported evaluation.
+Model weights and source video files are not distributed in this repository.

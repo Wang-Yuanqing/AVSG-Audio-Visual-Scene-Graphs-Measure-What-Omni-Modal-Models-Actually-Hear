@@ -1,0 +1,21 @@
+name: Check benchmark release
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Run metric and cohort checks
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce the benchmark tables
+        run: python -m evaluation.reproduce --output-dir outputs/ci_tables

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "AVSG prediction record",
+  "description": "OOV classes and relations are permitted in predictions and retained for scoring. An invalid record is scored as an empty graph.",
+  "required": [
+    "filename"
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "nodes",
+        "edges"
+      ]
+    },
+    {
+      "required": [
+        "raw"
+      ]
+    }
+  ],
+  "properties": {
+    "filename": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "class"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Use v-prefixed visual IDs and a-prefixed audio IDs. Archived malformed IDs are retained; the original scorer treats every non-v prefix as audio."
+          },
+          "class": {
+            "type": "string"
+          },
+          "attribute": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "edge",
+          "target"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "edge": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "raw": {
+      "type": "string"
+    },
+    "valid": {
+      "type": "boolean"
+    }
+  }
+}

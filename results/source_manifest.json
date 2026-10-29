@@ -1,0 +1,386 @@
+{
+  "release": "AVSG v0.1",
+  "source_archives": {
+    "avsg_data_verified.zip": "50825728fad87ca748727f1079558c90942dcdb42931e9205a2b7effe1a12e57",
+    "avsg_software_verified.zip": "b73099d325e5fb84e631bc32208672b09826f0a60edb4127c8f4dd572f68edf1"
+  },
+  "files": [
+    {
+      "path": "data/validation/validation_set_1.jsonl",
+      "sha256": "1ee59eba046ff15a8d57979400156e76405395d7dfd5c59765ca7a69c3e7718f",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/validation_set_1.jsonl"
+    },
+    {
+      "path": "data/validation/judgments_V2.json",
+      "sha256": "32c15216225a58325af386d0b494576199068e6ec465c6e8894dc91342965d9f",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/judgments_V2.json"
+    },
+    {
+      "path": "data/validation/assignments.json",
+      "sha256": "d356c52ea3b3de3992bf4560cff7af970a025ee80faba357f6d973bed88ee5b2",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/assignments.json"
+    },
+    {
+      "path": "data/validation/judgments_V3.json",
+      "sha256": "9d94b52a8fbd4bb793d6d4da36412a6154086e4e9994df2139e1bdfb56455c3b",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/judgments_V3.json"
+    },
+    {
+      "path": "data/validation/validation_set_2.jsonl",
+      "sha256": "8a6d3bc53b8205adfc773518762d34dedf96f445d830b976d93a9f143d4b2a6f",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/validation_set_2.jsonl"
+    },
+    {
+      "path": "data/validation/catch_key.json",
+      "sha256": "b4d96a74b40f9fb7c53d72c3cc5d95fa4c477fdd53f78e6cab42eaadc1279a7b",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/catch_key.json"
+    },
+    {
+      "path": "data/validation/judgments_V1.json",
+      "sha256": "8f334a6262ad86c30f905b19e849a08d6364590e06c2c069ee194efb154bf2f0",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/judgments_V1.json"
+    },
+    {
+      "path": "data/validation/judgments_V4.json",
+      "sha256": "501dadcd01c239b5ed0e0e6470c7d7d8acd9c846efc0baffe3a1ea6fb76942bc",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/validation/judgments_V4.json"
+    },
+    {
+      "path": "data/gold/1k_result.jsonl",
+      "sha256": "0f9b3b14ff5d2e50c4e31af138c888ea60eddf5bc82a562bedaaf5692bbfa631",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/gold/1k_result.jsonl"
+    },
+    {
+      "path": "data/rubric.md",
+      "sha256": "82ecd13966d3e43d50781cb7080d09f52c4dd54934ab14d2a129816db983f8fd",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/gold/avsg_annotation_rubric.md"
+    },
+    {
+      "path": "results/predictions/main/qwen2.5-omni-7b_caption.jsonl",
+      "sha256": "5d0e6be0ca0a981e4816f0b6f91efeede698f1b21bfe5ee5bd0f9f5305ec2e2d",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/qwen2.5-omni-7b_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/baselines/baseline_random.jsonl",
+      "sha256": "0f241079a405fbc93110f0137a3049a006c7d968dee8f0f391adc3f93a0604ec",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/baseline_random.jsonl"
+    },
+    {
+      "path": "results/predictions/main/nemotron-3-nano-omni_caption.jsonl",
+      "sha256": "3d2852fae532ddb6c8d850ffbffc7d3693f844bef6e2519eafc987b906b2e1e8",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/nemotron-3-nano-omni_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/finetuned/qwen3-omni-30b-instruct-ft_raw.jsonl",
+      "sha256": "f4272e277c38bb1939b355488dbe90c2f0e434690d835f3fa4177e2b3d925aac",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/finetuned/qwen3-omni-30b-instruct-ft_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/finetuned/qwen2.5-omni-7b-ft_raw.jsonl",
+      "sha256": "82552d807775ebf8f4004e4ffc8de4079a732344ede006148aa5f66043946f2f",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/finetuned/qwen2.5-omni-7b-ft_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/baselines/baseline_empty.jsonl",
+      "sha256": "8a6e6f198dc40266a17ed64cab7cdc106a7d472d2f0999074de2c1e44803f784",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/baseline_empty.jsonl"
+    },
+    {
+      "path": "results/predictions/main/qwen3-omni-30b-think_caption.jsonl",
+      "sha256": "21e672d480e078fd672399ccbc6ea69a8843243b91abb82cef55f9742c4b1414",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/qwen3-omni-30b-think_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/gemini-3.5-flash_caption.jsonl",
+      "sha256": "363d123167cb17a5705b5bbfa2199967aeb597b1fb91db5dda86bf8806603f37",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/gemini-3.5-flash_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/video-salmonn2plus-7b_caption.jsonl",
+      "sha256": "344f8aed4ae9d5b60a353f2607d7951b24c8d2b036e648277edbd32884e63f77",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/video-salmonn2plus-7b_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/qwen3-omni-30b-instruct_raw.jsonl",
+      "sha256": "a499aa1e07c6385f997bbf03eed4741576696e8cfc3c4ea1cb12cca9b3f69251",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/qwen3-omni-30b-instruct_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/interactiveomni-8b_raw.jsonl",
+      "sha256": "fcab1e3a3cfaef381346154dbf3d68ab446b8f1036be0ab3b042a6f57a1391ff",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/interactiveomni-8b_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/gemini-3.5-flash_raw.jsonl",
+      "sha256": "e3017e7244e9d2ce0fde877d7507148f9cef1940d8436b72e46207589abe906c",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/gemini-3.5-flash_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/gemini-3.1-pro_raw.jsonl",
+      "sha256": "bb0b88184b2142f38cacaf292934e02219f0ad087666c8d455ec75b198ab1294",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/gemini-3.1-pro_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/nemotron-3-nano-omni_raw.jsonl",
+      "sha256": "d12b0fa0acfce18ee4a182e7d7ba9dd6549848a2c7a70389d9005741430e1d67",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/nemotron-3-nano-omni_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/nemotron-3-nano-omni-think_raw.jsonl",
+      "sha256": "4c8f2816f2609843ca9cacfa7b0c1016953b61ee726beb84c7248b3a5bb27c13",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/nemotron-3-nano-omni-think_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/qwen2.5-omni-7b_raw.jsonl",
+      "sha256": "de7d50ec8c9755c147d31612327e39983400d3af5034c93bd1d0657902e5bc61",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/qwen2.5-omni-7b_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/interactiveomni-8b_raw.jsonl",
+      "sha256": "d6c4385b998ca40398d92e107a67e08369449e10a1e6ecd279a1167c39d533f0",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/interactiveomni-8b_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/minicpm-o-4.5_raw.jsonl",
+      "sha256": "2833991b02d2cd82d48d0573ff709f0c560740a195e9174b0031610ca0ae9da2",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/minicpm-o-4.5_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/video-salmonn2plus-7b_raw.jsonl",
+      "sha256": "c006c40922dfabc91212496a4fe5ce90592bf87d50ecef498e3c9322e89f55a8",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/video-salmonn2plus-7b_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/qwen3-omni-30b-instruct_raw.jsonl",
+      "sha256": "7fcbbb10e1d5df8f1dd332328c675a01ec3ff37a49b6283b2d28d4453419ce88",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/qwen3-omni-30b-instruct_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/qwen3-omni-30b-think_raw.jsonl",
+      "sha256": "20b7fdd1636a08592dc33b6e8b30ff2e044f984c5adb69efdb195e6ff29c3c76",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/qwen3-omni-30b-think_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/noaudio/omnivinci_raw.jsonl",
+      "sha256": "8577c0c72df91ccae524269ca26f7f37105b27d0b754d8a0c76cac8c32972f73",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/noaudio/omnivinci_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/interactiveomni-8b_caption.jsonl",
+      "sha256": "05c48c89f92fe48246bdcd43839be56a0480ecd795aa597c528e13a2276e3530",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/interactiveomni-8b_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/video-salmonn2plus-7b_raw.jsonl",
+      "sha256": "23109d10540798a706bdff3bd726cc442dbfd18431716fb531c21a8cbfc470aa",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/video-salmonn2plus-7b_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/gemini-3.1-pro_raw.jsonl",
+      "sha256": "55483c84d4e7b1a875632e1d3be83e0e47bd12d931e562794aeeb250d1feb780",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/gemini-3.1-pro_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/gemini-2.5-pro_caption.jsonl",
+      "sha256": "dc1e874bddb444cc418e6e07b9011d16e68de03d5bdfadffe488dc5bc16556e5",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/gemini-2.5-pro_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/gemini-3.1-pro_caption.jsonl",
+      "sha256": "483cfc29397cb6f1e67121098cea668f84dd95a5db438dcda64bff77be03fdb0",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/gemini-3.1-pro_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/minicpm-o-4.5_caption.jsonl",
+      "sha256": "5c8735f0cc6d5b9ab2824506a803d34406519fde6f646973963c08b5328e92be",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/minicpm-o-4.5_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/finetuned_noaudio/qwen3-omni-30b-instruct-ft_raw.jsonl",
+      "sha256": "ef911d28fe41b376f56177d756e722dd758bdd1d1c9debe605b26d8a58bc605d",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/finetuned_noaudio/qwen3-omni-30b-instruct-ft_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/finetuned_noaudio/qwen2.5-omni-7b-ft_raw.jsonl",
+      "sha256": "58256567dbe13dc9e36b368f5a416879a3976a6c1ca3841ff2ccf91964f65d00",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/finetuned_noaudio/qwen2.5-omni-7b-ft_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/qwen2.5-omni-7b_raw.jsonl",
+      "sha256": "9784d5ae21db8e60d31b4a170900cef565d668a3e518536282a8c1d8b94e1609",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/qwen2.5-omni-7b_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/qwen3-omni-30b-think_raw.jsonl",
+      "sha256": "57bc2be49a648c4e75eea06ba6c9263c006d11649bc5706b594d939f75d4878c",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/qwen3-omni-30b-think_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/nemotron-3-nano-omni-think_caption.jsonl",
+      "sha256": "4a5b800d4a4ae0bf3d89bd59542f5c8d2530b6b0febbaf3bab77830625acd8b7",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/nemotron-3-nano-omni-think_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/nemotron-3-nano-omni-think_raw.jsonl",
+      "sha256": "99db6593434d3ef4b0357373c7787ed0e2c57a9127b60e54c48b53b38558eb31",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/nemotron-3-nano-omni-think_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/nemotron-3-nano-omni_raw.jsonl",
+      "sha256": "660c1b8a3184b540d78b83e40974736778b12af464ec3efd56fb98f276d9af20",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/nemotron-3-nano-omni_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/gemini-2.5-pro_raw.jsonl",
+      "sha256": "a80c7ab00d3c2f7d70f5380c6a40d2bcf0220098d02f1787b494d1d3de11a7a8",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/gemini-2.5-pro_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/baselines/baseline_template.jsonl",
+      "sha256": "9c8c905f6800ef502a5c6c6c109f557ce312d03bb1d214f040bb0df8d878dd66",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/baseline_template.jsonl"
+    },
+    {
+      "path": "results/predictions/baselines/baseline_caption_lex.jsonl",
+      "sha256": "a572c8b7f8d5979408f616cc7d99887b46afbc0a76df08e2afe3d2b37aae2db7",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/baseline_caption_lex.jsonl"
+    },
+    {
+      "path": "results/predictions/main/minicpm-o-4.5_raw.jsonl",
+      "sha256": "0b4dc934e555b799abf3b766ff19bbd901dd3d3c232cbbd4b54b5ea421c2cd73",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/minicpm-o-4.5_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/qwen3-omni-30b-instruct_caption.jsonl",
+      "sha256": "7ca90b1f697f947c1e8318799af404e5860290775750c8bbd657f3b793fefe14",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/qwen3-omni-30b-instruct_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/main/omnivinci_raw.jsonl",
+      "sha256": "39f423298e6e11640f8ca4e3369bd8bc781dbf7ac02ef1417600f49f2007d0bd",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/omnivinci_raw.jsonl"
+    },
+    {
+      "path": "results/predictions/main/omnivinci_caption.jsonl",
+      "sha256": "e589b3bf8cfdc59cb6629195f2027076f5daa27168a7e046bc2ca21b82678e70",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/omnivinci_caption.jsonl"
+    },
+    {
+      "path": "results/predictions/baselines/baseline_template_two_speaker.jsonl",
+      "sha256": "8c6b957fe270e1646db3774a4ef857e6fe7d83bdb3667a17afc986aa8add23ed",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/predictions/baseline_template_two_speaker.jsonl"
+    },
+    {
+      "path": "data/LICENSE",
+      "sha256": "726581659d9140d7b1dec83f8630e26aa65879bd52f39a017aa552c20036a9f1",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/LICENSE"
+    },
+    {
+      "path": "data/splits/split_v1.json",
+      "sha256": "34eb8b4f27876872800aa9b77363a7b7206f45b2534a64b0b0245889054202dd",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/split/split_v1.json"
+    },
+    {
+      "path": "data/splits/test_clips.txt",
+      "sha256": "3e9cfd500a84d50b2f3e4417211a802cf7521df0e274d636975251f24099ee41",
+      "source_archive": "avsg_data_verified.zip",
+      "source_member": "avsg_data/split/test_clips.txt"
+    },
+    {
+      "path": "evaluation/avsg_metric.py",
+      "sha256": "598cab53768cf7425d33e2ebea2cca8dd73b65a7e05975daff8a13a644d82eec",
+      "source_archive": "avsg_software_verified.zip",
+      "source_member": "avsg_software/metric/avsg_metric.py"
+    },
+    {
+      "path": "evaluation/vocab.py",
+      "sha256": "ad49c9fb71085341befacce80ba8bc239a00d2f53a93187cf4f9798ce65ed5e7",
+      "source_archive": "avsg_software_verified.zip",
+      "source_member": "avsg_software/eval/vocab.py"
+    },
+    {
+      "path": "evaluation/prompt.py",
+      "sha256": "eacf05d51f98bd4ad6f58faf617a1a8e953fba47eece82f95b41bb7fdb8d8b56",
+      "source_archive": "avsg_software_verified.zip",
+      "source_member": "avsg_software/eval/prompt_as_run.py"
+    },
+    {
+      "path": "evaluation/score_validation.py",
+      "sha256": "c05dddf6ba8446df697aea0deae137bb8bcbb8a87e0dc194372eaa029d560b4c",
+      "source_archive": "avsg_software_verified.zip",
+      "source_member": "avsg_software/validation/score_validation.py",
+      "archive_sha256": "be293e820dd02d5014db7cb4e30a89dbccf223376ea9388bfd003566d4ca7e48",
+      "modifications": "Portable default data directory and matching docstring; scoring unchanged."
+    },
+    {
+      "path": "evaluation/parse_output.py",
+      "sha256": "3c59e971a575101d0cbe964f0ae60d19dc4ac9f4c6e61c2bb0fc2f3bd8501f24",
+      "source": "Final campaign parser snapshot",
+      "supersedes_archive_sha256": "f2f65d1bd01634b5009bee8faecfb4d611673f31e32aa03a222075a982930e1f",
+      "note": "Adds multi-object graph merging, bare-key repair and prefix salvage. Saved parsed predictions are preserved byte-for-byte; this parser is used for new raw text outputs."
+    },
+    {
+      "path": "evaluation/baselines.py",
+      "sha256": "a151dc3373ffc55277cf7baa3198c45b1faa4f455f730c129c79cfe8b55f052b",
+      "source_archive": "avsg_software_verified.zip",
+      "source_member": "avsg_software/eval/baselines.py",
+      "archive_sha256": "d1fa1a6301860e248a8f3f45138bbcc27e295f3fa3c41f5476356017a408f0d7",
+      "modifications": "Portable default input/output directories only."
+    }
+  ]
+}

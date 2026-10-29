@@ -1,0 +1,23 @@
+{
+  "inputs": [
+    {
+      "condition": "seed1_frames16",
+      "filename": "qwen3-omni-30b-think-s1_raw.jsonl",
+      "sha256": "9c1a7f2aad4deb388d75f8512038d9fcf3fe608d62d4459b0d409a2724634962"
+    },
+    {
+      "condition": "seed2_frames16",
+      "filename": "qwen3-omni-30b-think-s2_raw.jsonl",
+      "sha256": "786d4a7fcdf4e6be8dfef40d66335da519d90c5ef16845638e940262a4039931"
+    },
+    {
+      "condition": "seed0_frames32",
+      "filename": "qwen3-omni-30b-think-mf32_raw.jsonl",
+      "sha256": "893967315fea4e83fe02a489d45daf1834ef6b13be4a48bf4e6c80ce77bdcbc7"
+    }
+  ],
+  "script_sha256": "20ce08df778c3527b6727c54df81af53f21a016c2253ee5c9731312f2841bd45",
+  "base_manifest_sha256": "2da0a5cdf336d9917589ad5d946078d6346eb6252b1f83fc98c58eb97fb741e6",
+  "shared_weights_sha256": "4c13fb829b515d761d29474e5592bdde70af66fc8fe592c7112dd3e263ecbc87",
+  "note": "Control minus original seed0/16-frame score. Conditional source-video intervals, not confidence bounds on between-seed variance."
+}

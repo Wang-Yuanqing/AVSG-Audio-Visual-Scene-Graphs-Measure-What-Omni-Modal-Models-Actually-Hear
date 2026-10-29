@@ -1,0 +1,34 @@
+{
+  "sampling": {
+    "unit": "clip",
+    "seed": 20260918,
+    "per_stratum": 12,
+    "stratum_sizes": {
+      "a2a_present": 395,
+      "a2a_absent": 629
+    },
+    "models": [
+      "gemini-3.1-pro",
+      "qwen3-omni-30b-think"
+    ],
+    "model_assignment_probability": 0.5,
+    "prediction_rule": "One uniformly sampled unmatched eligible edge from the assigned model; no replacement if the pool is empty.",
+    "gold_rule": "All gold edges in sampled clips; no duration filtering.",
+    "alignment": "Original full-graph alignment and strict-greater tie-breaking; dangling prediction endpoints excluded as in scorer."
+  },
+  "judgment_options": [
+    "correct",
+    "incorrect",
+    "uncertain"
+  ],
+  "correct_rule": "Media-supported endpoints, relation and direction, consistent with the displayed edge rule.",
+  "aggregation": "Retain every submitted judgment; accept an edge only if all its two or three judgments are correct. Uncertain remains in the denominator.",
+  "participants": "Eight non-author student volunteers at the authors university, with no research collaboration with the authors; none annotated gold or saw original prefills. All consented and were unpaid.",
+  "blinding": "Gold/model provenance and other answers hidden; no default answer or target acceptance rate.",
+  "collection": "An initial paired assignment was followed by three additional raters covering the same fixed tasks; the third judgment was not conditional on disagreement. Seven volunteers submitted 45 answers each; one submitted 15; all 330 are retained.",
+  "privacy": "Participant names, enrollment tokens, timestamps and revision histories are excluded. Public participant IDs are arbitrary and carry no identity information.",
+  "source_sha256": {
+    "frozen_edge_results": "39599fde7b1875e1934cf08ee5be9307c42c3f1938f0aa810b61a8388d4dea76",
+    "frozen_study": "9d360817382731cc975bd811eeccc0cd54ba756e78639e9b2bbb75e42b625bc2"
+  }
+}

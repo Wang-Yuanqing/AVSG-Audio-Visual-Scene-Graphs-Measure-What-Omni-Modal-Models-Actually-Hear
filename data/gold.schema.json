@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "AVSG gold record",
+  "required": [
+    "filename",
+    "caption",
+    "ground_truth_nodes",
+    "ground_truth_edges"
+  ],
+  "properties": {
+    "filename": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "ground_truth_nodes": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "class",
+          "attribute"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[va][0-9]+$"
+          },
+          "class": {
+            "type": "string"
+          },
+          "attribute": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "id": {
+                  "pattern": "^v"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "class": {
+                  "enum": [
+                    "accordion",
+                    "axe",
+                    "baby",
+                    "bag",
+                    "ball",
+                    "band",
+                    "bat",
+                    "bed",
+                    "bicycle",
+                    "bird",
+                    "board",
+                    "boat",
+                    "book",
+                    "bottle",
+                    "bowl",
+                    "box",
+                    "boy",
+                    "brush",
+                    "building",
+                    "bus",
+                    "camera",
+                    "can",
+                    "car",
+                    "card",
+                    "cat",
+                    "chair",
+                    "court",
+                    "cow",
+                    "crowd",
+                    "cup",
+                    "desk",
+                    "dog",
+                    "door",
+                    "drum",
+                    "dumbbell",
+                    "field",
+                    "fire",
+                    "fish",
+                    "flag",
+                    "flute",
+                    "food",
+                    "girl",
+                    "grass",
+                    "guitar",
+                    "gun",
+                    "hammer",
+                    "hand",
+                    "horse",
+                    "knife",
+                    "man",
+                    "microphone",
+                    "motorcycle",
+                    "pan",
+                    "paper",
+                    "pen",
+                    "phone",
+                    "piano",
+                    "plate",
+                    "rod",
+                    "rope",
+                    "scissors",
+                    "screen",
+                    "shoe",
+                    "sign",
+                    "spoon",
+                    "sword",
+                    "team",
+                    "toy",
+                    "tree",
+                    "trumpet",
+                    "violin",
+                    "water",
+                    "window",
+                    "woman"
+                  ]
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "class": {
+                  "enum": [
+                    "accordion_sound",
+                    "applause",
+                    "background_music",
+                    "background_sound",
+                    "bark",
+                    "child_singing",
+                    "chirp",
+                    "coughing",
+                    "crashing_sound",
+                    "crinkling",
+                    "crowd_sound",
+                    "crying",
+                    "door_sound",
+                    "drum_sound",
+                    "engine",
+                    "female_singing",
+                    "female_speech",
+                    "flute_sound",
+                    "footstep",
+                    "guitar_sound",
+                    "gunshot",
+                    "laughter",
+                    "male_singing",
+                    "male_speech",
+                    "meow",
+                    "panting",
+                    "phone_ring",
+                    "piano_sound",
+                    "rain",
+                    "scraping",
+                    "sound_effect",
+                    "splash",
+                    "trumpet_sound",
+                    "violin_sound",
+                    "whistle",
+                    "wind"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ground_truth_edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "edge",
+          "target"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "edge": {
+            "type": "string",
+            "enum": [
+              "above",
+              "aiming_at",
+              "barking",
+              "cheering",
+              "chirping",
+              "clapping",
+              "clicking",
+              "coughing",
+              "crinkling",
+              "crying",
+              "drinking_from",
+              "eating",
+              "filming",
+              "fishing",
+              "hitting",
+              "holding",
+              "in_dialogue_with",
+              "in_front_of",
+              "inside",
+              "kicking",
+              "laughing",
+              "lying_on",
+              "meowing",
+              "next_to",
+              "on",
+              "panting",
+              "playing",
+              "playing_with",
+              "pointing_at",
+              "pouring",
+              "responds_to",
+              "revving",
+              "riding",
+              "ringing",
+              "scraping",
+              "singing",
+              "sitting_on",
+              "slamming",
+              "speaking",
+              "splashing",
+              "standing_on",
+              "stepping",
+              "surrounded_by",
+              "swimming_in",
+              "throwing",
+              "touching",
+              "walking_through",
+              "walking_toward",
+              "watching",
+              "wearing"
+            ]
+          },
+          "target": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

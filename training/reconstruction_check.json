@@ -1,0 +1,14 @@
+{
+  "qwen25": {
+    "records": 827,
+    "messages_targets_and_order_match_archived": true,
+    "media_basenames_match": true,
+    "source_input_sha256": "0f350db781cdf53ae5a511f06a4925bcc668fac431b778500d079197d489ceb4"
+  },
+  "qwen3": {
+    "records": 827,
+    "messages_targets_and_order_match_archived": true,
+    "media_basenames_match": true,
+    "source_input_sha256": "8c87ad508e72f0cfb37ff98d97a5822b16f5b6a516cc67ad3254f66b4a29f74a"
+  }
+}

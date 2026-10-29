@@ -1,0 +1,120 @@
+{
+  "canonical_gold_path": "data/gold/1k_result.jsonl",
+  "canonical_gold_sha256": "0f9b3b14ff5d2e50c4e31af138c888ea60eddf5bc82a562bedaaf5692bbfa631",
+  "display_note": "Complete canonical nodes and edges. Free-text attributes and captions are omitted from the figure; they are retained below. Stills are unmodified frames extracted from the corresponding local clips.",
+  "examples": [
+    {
+      "key": "music",
+      "gold_record": {
+        "filename": "dWk7Q3nLUqU_358.191_361.569.mp4",
+        "caption": "Engrossed in his performance, the man continues to strum his acoustic guitar in the lush, green woods, his white tank top a stark contrast to the foliage as he sings a love song.",
+        "ground_truth_nodes": [
+          {
+            "id": "v1",
+            "class": "man",
+            "attribute": "man in white tank top"
+          },
+          {
+            "id": "v2",
+            "class": "guitar",
+            "attribute": "acoustic guitar"
+          },
+          {
+            "id": "a1",
+            "class": "male_singing",
+            "attribute": "man singing a love song"
+          },
+          {
+            "id": "a2",
+            "class": "guitar_sound",
+            "attribute": "strumming acoustic guitar"
+          }
+        ],
+        "ground_truth_edges": [
+          {
+            "source": "v1",
+            "edge": "playing",
+            "target": "v2"
+          },
+          {
+            "source": "v1",
+            "edge": "singing",
+            "target": "a1"
+          },
+          {
+            "source": "v1",
+            "edge": "playing",
+            "target": "a2"
+          }
+        ]
+      },
+      "gold_record_sha256": "497962f1f8e2d376c9db903ede3f2b3fd6a621b7afac4f9de4e51709951f429a",
+      "source_video_path": "annotations/batch/dWk7Q3nLUqU_358.191_361.569.mp4",
+      "source_video_sha256": "5ca21d2506fff965f0060a1347c4315c77e70eec230c58ac494e84fe1d5608e7",
+      "frame_path": "figs/examples/music.png",
+      "frame_index": 24,
+      "fps": 23.976023976023978,
+      "frame_timestamp_seconds": 1.001,
+      "frame_sha256": "a29278ee917f8e1e1cbc9c81d9aa9c3d8ab0e84e5069c4e2a2cb4f08b850391e"
+    },
+    {
+      "key": "reaction",
+      "gold_record": {
+        "filename": "agZJtGTECJU_19.686_30.463.mp4",
+        "caption": "A shirtless man on a rug tenderly pets a playful blue heeler, who gazes ahead with its tongue out, as the man's gentle voice guides the pet.",
+        "ground_truth_nodes": [
+          {
+            "id": "v1",
+            "class": "man",
+            "attribute": "man in striped shirt"
+          },
+          {
+            "id": "v2",
+            "class": "dog",
+            "attribute": "blue heeler dog in pink harness"
+          },
+          {
+            "id": "a1",
+            "class": "male_speech",
+            "attribute": "man talking to the camera and dog"
+          },
+          {
+            "id": "a2",
+            "class": "bark",
+            "attribute": "dog barking briefly"
+          }
+        ],
+        "ground_truth_edges": [
+          {
+            "source": "v1",
+            "edge": "speaking",
+            "target": "a1"
+          },
+          {
+            "source": "v2",
+            "edge": "barking",
+            "target": "a2"
+          },
+          {
+            "source": "a1",
+            "edge": "responds_to",
+            "target": "a2"
+          },
+          {
+            "source": "v1",
+            "edge": "holding",
+            "target": "v2"
+          }
+        ]
+      },
+      "gold_record_sha256": "774a27f5a8835d511e22aade9743d331eb213e6e8def457055d124fccc28d83f",
+      "source_video_path": "annotations/batch/agZJtGTECJU_19.686_30.463.mp4",
+      "source_video_sha256": "eb6db03b0d8ff38785db23ec89ebf7ae8a129af6fb08be5cb7171cd0f4705a4e",
+      "frame_path": "figs/examples/reaction.png",
+      "frame_index": 146,
+      "fps": 29.97002997002997,
+      "frame_timestamp_seconds": 4.871533333333334,
+      "frame_sha256": "4c5927a5057b012c1b39eb9072085b57c732b107d8669d91c62889fe203759de"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "clips": 24,
+  "source_videos": 22,
+  "edges": 135,
+  "raters": 8,
+  "counts": {
+    "edges_with_2_raters": 75,
+    "judgments": 330,
+    "exact_unanimity": 120,
+    "verdict_correct": 302,
+    "unmatched_edges": 21,
+    "unmatched_unanimous_correct": 11,
+    "gold_edges": 114,
+    "gold_unanimous_correct": 106,
+    "verdict_uncertain": 19,
+    "edges_with_3_raters": 60,
+    "verdict_incorrect": 9
+  },
+  "answers_per_anonymous_rater": {
+    "P01": 15,
+    "P02": 45,
+    "P03": 45,
+    "P04": 45,
+    "P05": 45,
+    "P06": 45,
+    "P07": 45,
+    "P08": 45
+  },
+  "gold_by_family": {
+    "v2v": {
+      "audited": 56,
+      "unanimous_correct": 52
+    },
+    "a2a": {
+      "audited": 12,
+      "unanimous_correct": 12
+    },
+    "v2a": {
+      "audited": 46,
+      "unanimous_correct": 42
+    }
+  },
+  "unmatched_by_model": {
+    "qwen3-omni-30b-think": {
+      "audited": 11,
+      "unanimous_correct": 5
+    },
+    "gemini-3.1-pro": {
+      "audited": 10,
+      "unanimous_correct": 6
+    }
+  },
+  "gold_unweighted_unanimous_correct": 0.9298245614035088,
+  "gold_design_weighted_unanimous_correct": 0.910187763261226,
+  "weighting": "Ratio of inverse-clip-inclusion-probability weighted unanimous-correct gold edges to all audited gold edges.",
+  "scope": "Sampled reference correctness and unmatched-relation validity. Not full-graph human F1, omitted-edge recall, or a corrected corpus model score.",
+  "input_sha256": "2af0ac5555617c31faa6a2ed5208731f9a3ea33fecd484d1f59472f3d163d911"
+}

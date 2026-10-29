@@ -1,0 +1,3 @@
+# Scoring uses the Python standard library only.
+# Statistical reproduction uses NumPy; optional UIs have separate requirements.
+numpy>=1.24,<3

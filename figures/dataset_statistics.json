@@ -1,0 +1,1321 @@
+{
+  "source": "data/gold/1k_result.jsonl",
+  "source_sha256": "0f9b3b14ff5d2e50c4e31af138c888ea60eddf5bc82a562bedaaf5692bbfa631",
+  "clips": 1024,
+  "source_videos": 455,
+  "nodes": 5297,
+  "edges": 4433,
+  "node_modalities": {
+    "visual": 2846,
+    "audio": 2451
+  },
+  "observed_class_counts": {
+    "visual": 74,
+    "audio": 36
+  },
+  "duration_seconds": {
+    "total": 28659.26139002264,
+    "minimum": 1.4586553287981872,
+    "median": 14.027500000000003,
+    "p90": 61.57000000000005,
+    "maximum": 560.44,
+    "bin_edges": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "bin_counts": [
+      8,
+      106,
+      218,
+      228,
+      242,
+      129,
+      60,
+      25,
+      7,
+      1
+    ]
+  },
+  "nodes_per_clip": {
+    "2": 12,
+    "3": 81,
+    "4": 266,
+    "5": 278,
+    "6": 223,
+    "7": 104,
+    "8": 36,
+    "9": 18,
+    "10": 6
+  },
+  "edges_per_clip": {
+    "1": 38,
+    "2": 164,
+    "3": 219,
+    "4": 172,
+    "5": 155,
+    "6": 119,
+    "7": 76,
+    "8": 50,
+    "9": 21,
+    "10": 5,
+    "11": 2,
+    "13": 2,
+    "14": 1
+  },
+  "median_nodes": 5.0,
+  "median_edges": 4.0,
+  "family_edges": {
+    "V2V": 2084,
+    "V2A": 1896,
+    "A2A": 453
+  },
+  "family_clips": {
+    "V2V": 954,
+    "V2A": 992,
+    "A2A": 395
+  },
+  "typed_relation_counts": {
+    "A2A:in_dialogue_with": 389,
+    "A2A:responds_to": 64,
+    "V2A:barking": 6,
+    "V2A:cheering": 71,
+    "V2A:chirping": 4,
+    "V2A:clapping": 40,
+    "V2A:clicking": 6,
+    "V2A:coughing": 2,
+    "V2A:crinkling": 22,
+    "V2A:crying": 14,
+    "V2A:hitting": 37,
+    "V2A:laughing": 112,
+    "V2A:meowing": 1,
+    "V2A:panting": 8,
+    "V2A:playing": 243,
+    "V2A:pouring": 1,
+    "V2A:revving": 26,
+    "V2A:ringing": 1,
+    "V2A:scraping": 23,
+    "V2A:singing": 151,
+    "V2A:slamming": 3,
+    "V2A:speaking": 1066,
+    "V2A:splashing": 32,
+    "V2A:stepping": 27,
+    "V2V:above": 14,
+    "V2V:aiming_at": 4,
+    "V2V:drinking_from": 36,
+    "V2V:eating": 53,
+    "V2V:filming": 8,
+    "V2V:fishing": 11,
+    "V2V:hitting": 25,
+    "V2V:holding": 512,
+    "V2V:in_front_of": 321,
+    "V2V:inside": 143,
+    "V2V:kicking": 5,
+    "V2V:lying_on": 9,
+    "V2V:next_to": 375,
+    "V2V:on": 5,
+    "V2V:playing": 248,
+    "V2V:playing_with": 81,
+    "V2V:pointing_at": 8,
+    "V2V:riding": 23,
+    "V2V:sitting_on": 26,
+    "V2V:standing_on": 13,
+    "V2V:surrounded_by": 47,
+    "V2V:swimming_in": 20,
+    "V2V:throwing": 3,
+    "V2V:touching": 51,
+    "V2V:walking_through": 5,
+    "V2V:walking_toward": 10,
+    "V2V:watching": 25,
+    "V2V:wearing": 3
+  },
+  "class_occurrence_counts": {
+    "visual": {
+      "accordion": 1,
+      "axe": 2,
+      "baby": 7,
+      "bag": 29,
+      "ball": 37,
+      "band": 94,
+      "bat": 8,
+      "bed": 10,
+      "bicycle": 1,
+      "bird": 7,
+      "board": 3,
+      "boat": 5,
+      "book": 7,
+      "bottle": 41,
+      "bowl": 26,
+      "box": 26,
+      "boy": 83,
+      "brush": 4,
+      "building": 2,
+      "bus": 3,
+      "camera": 4,
+      "can": 4,
+      "car": 94,
+      "card": 11,
+      "cat": 3,
+      "chair": 13,
+      "court": 3,
+      "cow": 2,
+      "crowd": 239,
+      "cup": 29,
+      "desk": 1,
+      "dog": 44,
+      "door": 13,
+      "drum": 72,
+      "dumbbell": 4,
+      "field": 2,
+      "fire": 1,
+      "fish": 15,
+      "flag": 4,
+      "flute": 6,
+      "food": 80,
+      "girl": 56,
+      "grass": 1,
+      "guitar": 103,
+      "gun": 10,
+      "hammer": 1,
+      "hand": 51,
+      "horse": 9,
+      "knife": 8,
+      "man": 738,
+      "microphone": 70,
+      "motorcycle": 17,
+      "pan": 4,
+      "paper": 32,
+      "pen": 7,
+      "phone": 17,
+      "piano": 42,
+      "plate": 5,
+      "rod": 22,
+      "rope": 17,
+      "scissors": 3,
+      "screen": 7,
+      "shoe": 11,
+      "sign": 3,
+      "spoon": 10,
+      "sword": 2,
+      "team": 25,
+      "toy": 57,
+      "tree": 2,
+      "trumpet": 10,
+      "violin": 17,
+      "water": 47,
+      "window": 2,
+      "woman": 400
+    },
+    "audio": {
+      "accordion_sound": 1,
+      "applause": 54,
+      "background_music": 256,
+      "background_sound": 90,
+      "bark": 7,
+      "child_singing": 7,
+      "chirp": 5,
+      "coughing": 2,
+      "crashing_sound": 21,
+      "crinkling": 21,
+      "crowd_sound": 162,
+      "crying": 14,
+      "door_sound": 14,
+      "drum_sound": 71,
+      "engine": 29,
+      "female_singing": 15,
+      "female_speech": 434,
+      "flute_sound": 6,
+      "footstep": 25,
+      "guitar_sound": 97,
+      "gunshot": 9,
+      "laughter": 109,
+      "male_singing": 119,
+      "male_speech": 736,
+      "meow": 1,
+      "panting": 8,
+      "phone_ring": 1,
+      "piano_sound": 42,
+      "rain": 1,
+      "scraping": 20,
+      "sound_effect": 9,
+      "splash": 32,
+      "trumpet_sound": 10,
+      "violin_sound": 16,
+      "whistle": 1,
+      "wind": 6
+    }
+  },
+  "classes_with_at_most_five_occurrences": 34,
+  "rank_selection": {
+    "nodes": "Descending occurrence count separately within each modality; alphabetical tie-break.",
+    "relations": "Descending edge occurrence count across all observed modality-typed relations; alphabetical tie-break."
+  },
+  "v2a_class_associations": {
+    "interpretation": "Counts of annotated class-typed V2A edges; not instance-level source binding accuracy.",
+    "source_totals": {
+      "baby": 1,
+      "ball": 3,
+      "band": 267,
+      "bird": 5,
+      "bottle": 1,
+      "boy": 76,
+      "car": 8,
+      "cat": 1,
+      "crowd": 248,
+      "dog": 15,
+      "door": 6,
+      "fish": 4,
+      "girl": 56,
+      "hand": 14,
+      "horse": 6,
+      "man": 726,
+      "motorcycle": 13,
+      "phone": 1,
+      "rod": 1,
+      "team": 16,
+      "toy": 8,
+      "water": 13,
+      "woman": 407
+    },
+    "sound_totals": {
+      "accordion_sound": 1,
+      "applause": 40,
+      "bark": 6,
+      "child_singing": 6,
+      "chirp": 4,
+      "coughing": 2,
+      "crashing_sound": 25,
+      "crinkling": 22,
+      "crowd_sound": 137,
+      "crying": 14,
+      "door_sound": 14,
+      "drum_sound": 71,
+      "engine": 26,
+      "female_singing": 14,
+      "female_speech": 383,
+      "flute_sound": 6,
+      "footstep": 27,
+      "guitar_sound": 97,
+      "gunshot": 10,
+      "laughter": 111,
+      "male_singing": 121,
+      "male_speech": 628,
+      "meow": 1,
+      "panting": 8,
+      "phone_ring": 1,
+      "piano_sound": 42,
+      "scraping": 20,
+      "splash": 33,
+      "trumpet_sound": 10,
+      "violin_sound": 16
+    },
+    "occupied_class_pairs": 102,
+    "pair_counts": [
+      {
+        "visual_class": "baby",
+        "audio_class": "laughter",
+        "edges": 1
+      },
+      {
+        "visual_class": "ball",
+        "audio_class": "crashing_sound",
+        "edges": 3
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "applause",
+        "edges": 1
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "crowd_sound",
+        "edges": 8
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "drum_sound",
+        "edges": 64
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "female_singing",
+        "edges": 2
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "flute_sound",
+        "edges": 4
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "guitar_sound",
+        "edges": 59
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "male_singing",
+        "edges": 66
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "male_speech",
+        "edges": 10
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "piano_sound",
+        "edges": 34
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "trumpet_sound",
+        "edges": 5
+      },
+      {
+        "visual_class": "band",
+        "audio_class": "violin_sound",
+        "edges": 14
+      },
+      {
+        "visual_class": "bird",
+        "audio_class": "chirp",
+        "edges": 4
+      },
+      {
+        "visual_class": "bird",
+        "audio_class": "crying",
+        "edges": 1
+      },
+      {
+        "visual_class": "bottle",
+        "audio_class": "engine",
+        "edges": 1
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "child_singing",
+        "edges": 3
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "crinkling",
+        "edges": 2
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "crying",
+        "edges": 1
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "female_speech",
+        "edges": 1
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "footstep",
+        "edges": 2
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "laughter",
+        "edges": 4
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "male_speech",
+        "edges": 60
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "scraping",
+        "edges": 1
+      },
+      {
+        "visual_class": "boy",
+        "audio_class": "splash",
+        "edges": 2
+      },
+      {
+        "visual_class": "car",
+        "audio_class": "engine",
+        "edges": 8
+      },
+      {
+        "visual_class": "cat",
+        "audio_class": "meow",
+        "edges": 1
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "applause",
+        "edges": 32
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "child_singing",
+        "edges": 1
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "crowd_sound",
+        "edges": 126
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "crying",
+        "edges": 2
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "drum_sound",
+        "edges": 4
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "female_speech",
+        "edges": 22
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "flute_sound",
+        "edges": 1
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "footstep",
+        "edges": 6
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "laughter",
+        "edges": 17
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "male_speech",
+        "edges": 34
+      },
+      {
+        "visual_class": "crowd",
+        "audio_class": "splash",
+        "edges": 3
+      },
+      {
+        "visual_class": "dog",
+        "audio_class": "bark",
+        "edges": 6
+      },
+      {
+        "visual_class": "dog",
+        "audio_class": "footstep",
+        "edges": 1
+      },
+      {
+        "visual_class": "dog",
+        "audio_class": "panting",
+        "edges": 5
+      },
+      {
+        "visual_class": "dog",
+        "audio_class": "splash",
+        "edges": 3
+      },
+      {
+        "visual_class": "door",
+        "audio_class": "door_sound",
+        "edges": 6
+      },
+      {
+        "visual_class": "fish",
+        "audio_class": "splash",
+        "edges": 4
+      },
+      {
+        "visual_class": "girl",
+        "audio_class": "child_singing",
+        "edges": 2
+      },
+      {
+        "visual_class": "girl",
+        "audio_class": "crinkling",
+        "edges": 1
+      },
+      {
+        "visual_class": "girl",
+        "audio_class": "female_singing",
+        "edges": 1
+      },
+      {
+        "visual_class": "girl",
+        "audio_class": "female_speech",
+        "edges": 41
+      },
+      {
+        "visual_class": "girl",
+        "audio_class": "laughter",
+        "edges": 7
+      },
+      {
+        "visual_class": "girl",
+        "audio_class": "scraping",
+        "edges": 4
+      },
+      {
+        "visual_class": "hand",
+        "audio_class": "crinkling",
+        "edges": 6
+      },
+      {
+        "visual_class": "hand",
+        "audio_class": "door_sound",
+        "edges": 2
+      },
+      {
+        "visual_class": "hand",
+        "audio_class": "gunshot",
+        "edges": 4
+      },
+      {
+        "visual_class": "hand",
+        "audio_class": "scraping",
+        "edges": 1
+      },
+      {
+        "visual_class": "hand",
+        "audio_class": "splash",
+        "edges": 1
+      },
+      {
+        "visual_class": "horse",
+        "audio_class": "footstep",
+        "edges": 6
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "accordion_sound",
+        "edges": 1
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "applause",
+        "edges": 2
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "coughing",
+        "edges": 2
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "crashing_sound",
+        "edges": 20
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "crinkling",
+        "edges": 9
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "crying",
+        "edges": 7
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "door_sound",
+        "edges": 4
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "drum_sound",
+        "edges": 3
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "flute_sound",
+        "edges": 1
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "footstep",
+        "edges": 9
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "guitar_sound",
+        "edges": 37
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "gunshot",
+        "edges": 6
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "laughter",
+        "edges": 34
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "male_singing",
+        "edges": 55
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "male_speech",
+        "edges": 512
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "panting",
+        "edges": 3
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "piano_sound",
+        "edges": 3
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "scraping",
+        "edges": 10
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "splash",
+        "edges": 3
+      },
+      {
+        "visual_class": "man",
+        "audio_class": "trumpet_sound",
+        "edges": 5
+      },
+      {
+        "visual_class": "motorcycle",
+        "audio_class": "engine",
+        "edges": 13
+      },
+      {
+        "visual_class": "phone",
+        "audio_class": "phone_ring",
+        "edges": 1
+      },
+      {
+        "visual_class": "rod",
+        "audio_class": "scraping",
+        "edges": 1
+      },
+      {
+        "visual_class": "team",
+        "audio_class": "applause",
+        "edges": 1
+      },
+      {
+        "visual_class": "team",
+        "audio_class": "crowd_sound",
+        "edges": 3
+      },
+      {
+        "visual_class": "team",
+        "audio_class": "laughter",
+        "edges": 2
+      },
+      {
+        "visual_class": "team",
+        "audio_class": "male_speech",
+        "edges": 9
+      },
+      {
+        "visual_class": "team",
+        "audio_class": "splash",
+        "edges": 1
+      },
+      {
+        "visual_class": "toy",
+        "audio_class": "crashing_sound",
+        "edges": 1
+      },
+      {
+        "visual_class": "toy",
+        "audio_class": "engine",
+        "edges": 4
+      },
+      {
+        "visual_class": "toy",
+        "audio_class": "male_speech",
+        "edges": 3
+      },
+      {
+        "visual_class": "water",
+        "audio_class": "splash",
+        "edges": 13
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "applause",
+        "edges": 4
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "crashing_sound",
+        "edges": 1
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "crinkling",
+        "edges": 4
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "crying",
+        "edges": 3
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "door_sound",
+        "edges": 2
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "female_singing",
+        "edges": 11
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "female_speech",
+        "edges": 319
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "footstep",
+        "edges": 3
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "guitar_sound",
+        "edges": 1
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "laughter",
+        "edges": 46
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "piano_sound",
+        "edges": 5
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "scraping",
+        "edges": 3
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "splash",
+        "edges": 3
+      },
+      {
+        "visual_class": "woman",
+        "audio_class": "violin_sound",
+        "edges": 2
+      }
+    ],
+    "display_selection": "Visual source and audio classes with at least 5 full-corpus V2A edges, independently ranked by full-corpus marginals; alphabetical tie-break.",
+    "display_label_denominator": "All 1,896 V2A edges; percentages use full-corpus class marginals before pair restriction.",
+    "display_link_width_points": "0.18 + 0.010 * edge_count; the intercept keeps rare class-pair links visible.",
+    "display_marginal_threshold": 5,
+    "display_nonzero_pairs": 92,
+    "display_sources": [
+      "man",
+      "woman",
+      "band",
+      "crowd",
+      "boy",
+      "girl",
+      "team",
+      "dog",
+      "hand",
+      "motorcycle",
+      "water",
+      "car",
+      "toy",
+      "door",
+      "horse",
+      "bird"
+    ],
+    "display_sounds": [
+      "male_speech",
+      "female_speech",
+      "crowd_sound",
+      "male_singing",
+      "laughter",
+      "guitar_sound",
+      "drum_sound",
+      "piano_sound",
+      "applause",
+      "splash",
+      "footstep",
+      "engine",
+      "crashing_sound",
+      "crinkling",
+      "scraping",
+      "violin_sound",
+      "crying",
+      "door_sound",
+      "female_singing",
+      "gunshot",
+      "trumpet_sound",
+      "panting",
+      "bark",
+      "child_singing",
+      "flute_sound"
+    ],
+    "display_matrix": [
+      [
+        512,
+        0,
+        0,
+        55,
+        34,
+        37,
+        3,
+        3,
+        2,
+        3,
+        9,
+        0,
+        20,
+        9,
+        10,
+        0,
+        7,
+        4,
+        0,
+        6,
+        5,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        319,
+        0,
+        0,
+        46,
+        1,
+        0,
+        5,
+        4,
+        3,
+        3,
+        0,
+        1,
+        4,
+        3,
+        2,
+        3,
+        2,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        8,
+        66,
+        0,
+        59,
+        64,
+        34,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        2,
+        0,
+        5,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        34,
+        22,
+        126,
+        0,
+        17,
+        0,
+        4,
+        0,
+        32,
+        3,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        60,
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        41,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        9,
+        0,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        6,
+        1,
+        0,
+        0,
+        2,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "display_edges": 1877,
+    "total_edges": 1896,
+    "display_fraction": 0.9899789029535865
+  }
+}

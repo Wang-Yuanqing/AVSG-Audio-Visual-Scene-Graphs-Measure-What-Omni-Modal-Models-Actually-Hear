@@ -1,0 +1,33 @@
+{
+  "recipe_source": "Saved campaign launch scripts, portable CLI transcription",
+  "launches": {
+    "qwen25": {
+      "source_sha256": "e3e631f5008ec268a51e3901c5c1fdb7e833045af83a817e0ba1e71fce503b7a",
+      "model_type": "qwen2_5_omni",
+      "audio_mode": "separate"
+    },
+    "qwen3": {
+      "source_sha256": "875940f9d8873a551dfcc1217f7c2a4c0d7185dbc4693c77d139c08b9dea2005",
+      "model_type": "qwen3_omni_moe",
+      "audio_mode": "in_video"
+    }
+  },
+  "shared": {
+    "epochs": 2,
+    "learning_rate": 0.0001,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "max_length": 8192,
+    "dtype": "bfloat16",
+    "attn_impl": "sdpa",
+    "freeze_vit": true,
+    "freeze_aligner": true,
+    "max_frames": 16,
+    "fps": 2,
+    "video_max_pixels": 200704
+  },
+  "software_environment_lock": "Not recovered; no fresh GPU training validation."
+}

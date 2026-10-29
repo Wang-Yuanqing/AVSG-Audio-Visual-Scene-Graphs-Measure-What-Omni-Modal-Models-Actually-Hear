@@ -1,0 +1,18 @@
+AVSG dataset annotations (scene graphs, attributes, validation judgments, and
+accompanying documentation) are released for research purposes under the
+Creative Commons Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0), https://creativecommons.org/licenses/by-nc/4.0/,
+with the following additional use restriction:
+
+- The dataset and annotations may NOT be used for surveillance, biometric
+  identification, or the identification or tracking of the individuals
+  appearing in the source videos.
+
+Notes:
+- Video content is NOT distributed. Clips reference publicly available YouTube
+  videos (ids + timestamps); anyone re-acquiring them must comply with YouTube's
+  Terms of Service.
+- Clip boundaries and captions derive from the LongVALE dataset (Geng et al.,
+  CVPR 2025); users should additionally respect LongVALE's terms and cite it.
+- Model predictions in predictions/ are outputs of the respective third-party
+  models and are provided solely for reproducibility of the paper's evaluation.

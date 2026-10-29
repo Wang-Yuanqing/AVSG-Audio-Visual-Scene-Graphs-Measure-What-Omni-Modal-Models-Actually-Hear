@@ -1,0 +1,21 @@
+{
+  "reference": "Frozen paper-matched scientific outputs used by CVPR candidate v4",
+  "checks": {
+    "estimates_exact_match": 720,
+    "contrasts_exact_match": 164,
+    "frame_seed_rows_exact_match": 18,
+    "prefill_clip_matches_exact": 1023,
+    "prefill_raw_model_subsets_exact": 12,
+    "oov_bound_exact_match": true,
+    "audit": {
+      "edges": 135,
+      "raters": 8,
+      "judgments": 330,
+      "gold_unanimous_correct": 106,
+      "weighted_rate": 0.910187763261226
+    },
+    "frozen_audit_sampling_and_edges_verified": true,
+    "tie_sensitivity_summary_exact_match": true,
+    "bootstrap_script_hash_current": true
+  }
+}

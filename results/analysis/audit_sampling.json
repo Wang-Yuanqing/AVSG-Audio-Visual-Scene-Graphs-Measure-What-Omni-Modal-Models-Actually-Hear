@@ -1,0 +1,15 @@
+{
+  "corpus_unmatched_edges": {
+    "gemini-3.1-pro": 2233,
+    "qwen3-omni-30b-think": 1990
+  },
+  "sampled_unmatched_edges": {
+    "qwen3-omni-30b-think": 11,
+    "gemini-3.1-pro": 10
+  },
+  "sampling_seed": 20260918,
+  "clip_sampling_model_assignment_edge_sampling_and_shuffle_match": true,
+  "all_135_displayed_edges_match_released_graphs": true,
+  "metric_sha256": "598cab53768cf7425d33e2ebea2cca8dd73b65a7e05975daff8a13a644d82eec",
+  "scope": "Sampled unmatched-edge acceptance describes the small audit sample; it does not correct corpus F1."
+}

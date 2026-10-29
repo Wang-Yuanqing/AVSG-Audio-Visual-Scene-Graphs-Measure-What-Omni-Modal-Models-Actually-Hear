@@ -1,0 +1,244 @@
+{
+  "s1_r022": {
+    "verdict": "agree",
+    "filename": "koYkcep_x7w_47.4_79.366.mp4"
+  },
+  "s1_r018": {
+    "verdict": "agree",
+    "filename": "3UXPIpkX-Ek_181.0_185.43455782312924.mp4"
+  },
+  "s1_r010": {
+    "verdict": "agree",
+    "filename": "Oi4shX_NF_s_228.828_241.16244897959183.mp4"
+  },
+  "s1_r054": {
+    "verdict": "agree",
+    "filename": "Rbim-MM-9OE_363.333_370.266.mp4"
+  },
+  "s1_r048": {
+    "verdict": "agree",
+    "filename": "c591ZQY_2KA_210.418_216.299.mp4"
+  },
+  "s1_r019": {
+    "verdict": "agree",
+    "filename": "9ZpFj0ucnOs_292.866_336.92154195011335.mp4"
+  },
+  "s1_r006": {
+    "verdict": "agree",
+    "filename": "60pfv9jB7Fw_342.642_357.29.mp4"
+  },
+  "s1_r030": {
+    "verdict": "agree",
+    "filename": "E7PXyToxFhk_181.833_437.4.mp4"
+  },
+  "s1_r023": {
+    "verdict": "agree",
+    "filename": "-s3772_oIBc_20.687_54.054.mp4"
+  },
+  "s1_r000": {
+    "verdict": "agree",
+    "filename": "_IOVQUeZSeE_143.24_155.48.mp4"
+  },
+  "s1_r026": {
+    "verdict": "disagree",
+    "filename": "NYGLDZ115wU_221.32_224.48.mp4",
+    "error_type": "wrong/missing visual node"
+  },
+  "s1_r021": {
+    "verdict": "agree",
+    "filename": "H_tWiDvu_2E_33.833_51.333.mp4"
+  },
+  "s1_r045": {
+    "verdict": "agree",
+    "filename": "6kFDyV7HnpA_47.797_60.185.mp4"
+  },
+  "s1_r039": {
+    "verdict": "agree",
+    "filename": "pyJ9D6CJiZo_0.0_12.012.mp4"
+  },
+  "s1_r038": {
+    "verdict": "agree",
+    "filename": "oRsoKvBuhMc_301.124_306.532.mp4"
+  },
+  "s1_r032": {
+    "verdict": "agree",
+    "filename": "EZ-gKsCavmo_132.065_143.543.mp4"
+  },
+  "s1_r012": {
+    "verdict": "agree",
+    "filename": "jeL68hVaEw0_5.171_12.053.mp4"
+  },
+  "s1_r042": {
+    "verdict": "agree",
+    "filename": "ZBhFz68eHkI_39.139_54.888.mp4"
+  },
+  "s1_r043": {
+    "verdict": "agree",
+    "filename": "cBAo4VJhsS8_184.017_188.321.mp4"
+  },
+  "s1_r005": {
+    "verdict": "agree",
+    "filename": "ZSTtIEyPGJE_174.966_204.966.mp4"
+  },
+  "s1_r044": {
+    "verdict": "agree",
+    "filename": "XTX_B-jk86w_63.966_101.2.mp4"
+  },
+  "s1_r028": {
+    "verdict": "agree",
+    "filename": "Nk46d0ST8VI_159.075_164.414.mp4"
+  },
+  "s1_r055": {
+    "verdict": "agree",
+    "filename": "cbbFvbGdero_56.423_68.63818594104309.mp4"
+  },
+  "s1_r001": {
+    "verdict": "agree",
+    "filename": "-qln7_btudU_47.96_67.92.mp4"
+  },
+  "s1_r024": {
+    "verdict": "agree",
+    "filename": "jRregqhAAVM_97.964_126.44807256235828.mp4"
+  },
+  "s1_r058": {
+    "verdict": "agree",
+    "filename": "pyJ9D6CJiZo_12.012_60.06.mp4"
+  },
+  "s1_r035": {
+    "verdict": "disagree",
+    "filename": "Q2h_zUbkgtA_194.861_238.271.mp4",
+    "error_type": "wrong/missing audio node"
+  },
+  "s1_r033": {
+    "verdict": "agree",
+    "filename": "KA7WE-l5zw8_100.308_105.04707482993197.mp4"
+  },
+  "s1_r047": {
+    "verdict": "agree",
+    "filename": "ou2UAfPrkS4_421.466_452.8584126984127.mp4"
+  },
+  "s1_r007": {
+    "verdict": "agree",
+    "filename": "OBbvWFzmxeg_83.958_88.00362811791383.mp4"
+  },
+  "s1_r011": {
+    "verdict": "agree",
+    "filename": "T8f_6zsm17M_175.733_186.366.mp4"
+  },
+  "s1_r040": {
+    "verdict": "agree",
+    "filename": "6rGH1ildwRg_80.371_82.999.mp4"
+  },
+  "s1_r027": {
+    "verdict": "agree",
+    "filename": "mdAS6mpnt64_163.333_170.466.mp4"
+  },
+  "s1_r037": {
+    "verdict": "skip",
+    "filename": "-6pwBScOgqc_141.808_150.55.mp4"
+  },
+  "s1_r034": {
+    "verdict": "agree",
+    "filename": "ARE9e-0q7fA_40.54_50.383.mp4"
+  },
+  "s1_r015": {
+    "verdict": "agree",
+    "filename": "e8ja97MC8l8_326.125_380.68.mp4"
+  },
+  "s1_r008": {
+    "verdict": "agree",
+    "filename": "4Dld6guSNmo_22.583_49.958.mp4"
+  },
+  "s1_r016": {
+    "verdict": "agree",
+    "filename": "0Es78QJXkkY_289.756_306.272.mp4"
+  },
+  "s1_r009": {
+    "verdict": "agree",
+    "filename": "MRU9Y4CLazA_328.133_336.833.mp4"
+  },
+  "s1_r029": {
+    "verdict": "agree",
+    "filename": "ZEDS95-Ss5I_218.565_226.272.mp4"
+  },
+  "s1_r056": {
+    "verdict": "agree",
+    "filename": "KqGnLJ3J2Og_0.0_63.93.mp4"
+  },
+  "s1_r031": {
+    "verdict": "agree",
+    "filename": "_bttdtApAuU_69.269_81.114.mp4"
+  },
+  "s1_r041": {
+    "verdict": "agree",
+    "filename": "nfudAwgjYLY_0.0_144.344.mp4"
+  },
+  "s1_r046": {
+    "verdict": "agree",
+    "filename": "9ZpFj0ucnOs_205.933_220.42702947845805.mp4"
+  },
+  "s1_r050": {
+    "verdict": "agree",
+    "filename": "3UXPIpkX-Ek_119.16_127.6.mp4"
+  },
+  "s1_r036": {
+    "verdict": "agree",
+    "filename": "S5uLVjMUVuY_69.566_117.81804988662131.mp4"
+  },
+  "s1_r013": {
+    "verdict": "agree",
+    "filename": "3pWk0px1OhA_4.971_144.177.mp4"
+  },
+  "s1_r004": {
+    "verdict": "agree",
+    "filename": "agZJtGTECJU_290.523_320.753.mp4"
+  },
+  "s1_r017": {
+    "verdict": "agree",
+    "filename": "04-QkYHQwuU_0.0_39.24.mp4"
+  },
+  "s1_r025": {
+    "verdict": "agree",
+    "filename": "92D40cnRTUg_13.38_18.483083900226756.mp4"
+  },
+  "s1_r059": {
+    "verdict": "agree",
+    "filename": "0xr1-FuXY-o_51.217_69.90748299319728.mp4"
+  },
+  "s1_r051": {
+    "verdict": "agree",
+    "filename": "DtsvUBZIPyA_448.048_450.717.mp4"
+  },
+  "s1_r002": {
+    "verdict": "agree",
+    "filename": "Oi4shX_NF_s_42.208_52.719.mp4"
+  },
+  "s1_r052": {
+    "verdict": "agree",
+    "filename": "3VS2Dp5ECug_175.441_185.952.mp4"
+  },
+  "s1_r014": {
+    "verdict": "agree",
+    "filename": "KA7WE-l5zw8_18.018_20.353.mp4"
+  },
+  "s1_r003": {
+    "verdict": "agree",
+    "filename": "ARE9e-0q7fA_133.758_139.305.mp4"
+  },
+  "s1_r057": {
+    "verdict": "agree",
+    "filename": "AOobN-qxCMk_159.993_176.042.mp4"
+  },
+  "s1_r049": {
+    "verdict": "agree",
+    "filename": "ZOMtn3bfpwU_167.767_187.22.mp4"
+  },
+  "s1_r053": {
+    "verdict": "agree",
+    "filename": "CO8zjmj__tE_123.99_169.41278911564626.mp4"
+  },
+  "s1_r020": {
+    "verdict": "agree",
+    "filename": "a7KJ0-chLXE_119.369_175.3.mp4"
+  }
+}
