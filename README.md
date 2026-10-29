@@ -87,4 +87,4 @@ Human annotators corrected Gemini-3.1-Pro prefills using the released rubric. In
 
 Use [CITATION.cff](CITATION.cff) to cite this software/data release. The repository accompanies **AVSG: Benchmarking Audio–Visual Scene Graph Generation**. Source clip boundaries and captions come from [LongVALE](https://github.com/ttgeng233/LongVALE), which should also be credited when using those resources.
 
-See [LICENSE](LICENSE) for code, annotations, and third-party material. Model outputs are included to reproduce the reported evaluation; model weights and source videos are not bundled.
+**Code: [MIT](LICENSE). Dataset annotations: [CC BY-NC 4.0 with the existing use restriction](data/LICENSE).** See [licensing scope](LICENSING.md) for the distinction between software, annotations, model outputs, and third-party material. Model outputs are included to reproduce the reported evaluation; model weights and source videos are not bundled.

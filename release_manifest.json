@@ -1,5 +1,5 @@
 {
-  "release": "0.1.0",
+  "release": "0.1.1",
   "date": "2026-10-29",
   "scope": "Public AVSG research release; frozen paper-matched data and analyses, portable research sources.",
   "files": [
@@ -145,8 +145,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 522,
-      "sha256": "41b112a0735a74a03135c08feddfcfa75d1c2dcadf45f6ec7f93e69e87714211"
+      "bytes": 535,
+      "sha256": "b7faab60bb5f80c522e6b24d84eb73ae53bb604a6567a4df795c388794397da9"
     },
     {
       "path": "data/audit/clips.json",
@@ -480,13 +480,18 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1038,
-      "sha256": "64ad9810b7359ab97378d6e4e00f874a0afad0a2a99cbb3833ea231d55c5fd3d"
+      "bytes": 1074,
+      "sha256": "4e210d1d6ad2d10e5fa50197aed614af43201240efb16a09d5ae2f2870b9eece"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 1615,
+      "sha256": "3ce4ce67ac7d88ed3ae7fa9cdd08ca3e90fb9d8e58d61331951bbfaa455f0291"
     },
     {
       "path": "README.md",
-      "bytes": 5927,
-      "sha256": "056dfb699cd120aef34748a8dab3eadfff1f9c182a600f977ac84b34b4ec3ac6"
+      "bytes": 6094,
+      "sha256": "73d90d7f16c2fee8673439de2442fc3bcc921af5a143fe30b150e8a4dac3b9d5"
     },
     {
       "path": "RELEASE_CHECKS.md",

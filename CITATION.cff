@@ -4,7 +4,8 @@ type: software
 title: "AVSG: Benchmarking Audio-Visual Scene Graph Generation"
 authors:
   - name: "AVSG contributors"
-version: 0.1.0
+version: 0.1.1
+license: MIT
 date-released: 2026-10-29
 repository-code: "https://github.com/Wang-Yuanqing/AVSG-Audio-Visual-Scene-Graphs-Measure-What-Omni-Modal-Models-Actually-Hear"
 keywords:

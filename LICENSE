@@ -1,23 +1,21 @@
-AVSG release licensing
-======================
+MIT License
 
-Dataset annotations and documentation
--------------------------------------
-AVSG scene graphs, attributes, anonymized validation/audit judgments, and
-accompanying dataset documentation retain the existing annotation terms:
-CC BY-NC 4.0 with the additional use restriction stated in data/LICENSE.
-That file is retained verbatim from the verified dataset release and includes
-the source-data provenance.
+Copyright (c) 2026 AVSG contributors
 
-Software
---------
-A separate software license has not yet been specified by the authors.
-The annotation license above does not apply to the source code. This release
-does not introduce an MIT, Apache, or other blanket software license.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Third-party material
---------------------
-Source videos, LongVALE captions and clip boundaries, model weights, external
-libraries, and model reference implementations retain their respective terms.
-Model predictions are provided for reproduction of the reported evaluation.
-Model weights and source video files are not distributed in this repository.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
